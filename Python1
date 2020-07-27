@@ -1,0 +1,11 @@
+print("Please Enter The Size Of The List You Want To Enter:",end="")
+n=int(input())
+a=list()
+
+for i in range(0,n):
+  temp=int(input())
+  a.append(temp)
+
+for i in range(0,n):
+  if(a[i]>0):
+    print("{},".format(a[i]),end=" ")
